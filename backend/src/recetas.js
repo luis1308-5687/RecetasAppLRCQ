@@ -20,6 +20,14 @@ const recetas = [
     tiempo: 30,
     categoria: "desayuno",
   },
+
+  {
+    id: 4,
+    nombre: "Papas fritas",
+    ingredientes: ["papas", "sal", "aceite"],
+    tiempo: 20,
+    categoria: "comida rapida",
+  },
 ];
 
 module.exports = { recetas };
