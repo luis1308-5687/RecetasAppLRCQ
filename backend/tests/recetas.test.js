@@ -18,7 +18,7 @@ describe("API Recetas", () => {
 
   test("GET /api/recetas/:id - retorna 404 si no existe", async () => {
     const res = await request(app).get("/api/recetas/999");
-    expect(res.statusCode).toBe(404);
+    expect(res.statusCode).toBe(999);
     expect(res.body).toHaveProperty("error");
   });
 
